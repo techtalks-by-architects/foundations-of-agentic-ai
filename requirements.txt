@@ -1,0 +1,17 @@
+# Unified dependencies for all chapters.
+# Install once from repo root:  pip install -r requirements.txt
+
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Chapter 04: LangChain
+langchain
+langchain-openai
+
+# Chapter 05: LangGraph
+langgraph
+
+# Chapter 06: Tool Design (REST server, MCP)
+flask
+requests
+mcp
